@@ -16,6 +16,13 @@ name = wght;
 tag = wght;
 }
 );
+classes = (
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z a.sc b.sc c.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc k.sc l.sc m.sc n.sc o.sc p.sc q.sc r.sc s.sc t.sc u.sc v.sc w.sc x.sc y.sc z.sc zero one two three four five six seven eight nine zero.sc one.sc two.sc three.sc four.sc five.sc six.sc seven.sc eight.sc nine.sc space nbspace enspace emspace enquad emquad threeperemspace fourperemspace sixperemspace figurespace punctuationspace thinspace hairspace zerowidthspace narrownbspace mediumspace-math period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash exclam.sc exclamdown.sc question.sc questiondown.sc hyphen endash emdash underscore parenleft parenright braceleft braceright bracketleft bracketright quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle at ampersand copyright registered trademark degree bar brokenbar cent dollar euro sterling yen plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde asciicircum infinity percent grave tilde";
+name = All;
+}
+);
 customParameters = (
 {
 name = "Write lastChange";
