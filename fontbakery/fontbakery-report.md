@@ -17,9 +17,9 @@ Fontbakery version: 0.8.11
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -115,7 +115,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -151,47 +151,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -219,7 +207,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
@@ -243,47 +231,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -397,6 +373,26 @@ greaterequal
 
 	* uni01B7 (U+01B7): X=439.0,Y=-2.0 (should be at baseline 0?)
 
+	* uni01C7 (U+01C7): X=1772.0,Y=1.0 (should be at baseline 0?)
+
+	* uni01C8 (U+01C8): X=1165.5,Y=-901.5 (should be at descender -903?)
+
+	* uni01C8 (U+01C8): X=1052.0,Y=-904.0 (should be at descender -903?)
+
+	* uni01C9 (U+01C9): X=243.5,Y=-901.5 (should be at descender -903?)
+
+	* uni01C9 (U+01C9): X=130.0,Y=-904.0 (should be at descender -903?)
+
+	* uni01CA (U+01CA): X=1883.0,Y=1.0 (should be at baseline 0?)
+
+	* uni01CB (U+01CB): X=1358.5,Y=-901.5 (should be at descender -903?)
+
+	* uni01CB (U+01CB): X=1245.0,Y=-904.0 (should be at descender -903?)
+
+	* uni01CC (U+01CC): X=920.5,Y=-901.5 (should be at descender -903?)
+
+	* uni01CC (U+01CC): X=807.0,Y=-904.0 (should be at descender -903?)
+
 	* uni01DC (U+01DC): X=1044.0,Y=1957.0 (should be at cap-height 1958?)
 
 	* uni01E3 (U+01E3): X=1068.0,Y=0.5 (should be at baseline 0?)
@@ -509,9 +505,9 @@ greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -607,7 +603,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -643,47 +639,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -711,7 +695,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
@@ -735,47 +719,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -902,9 +874,9 @@ greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1000,7 +972,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -1036,47 +1008,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -1104,7 +1064,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
@@ -1128,47 +1088,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1241,9 +1189,9 @@ greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1339,7 +1287,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -1375,47 +1323,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -1443,7 +1379,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
-	- Glyph name: tbar	Contours detected: 0	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
@@ -1467,47 +1403,35 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDA	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDB	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDC	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDD	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDE	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni1EDF	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE0	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE1	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE2	Contours detected: 0	Expected: 3 or 4
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE3	Contours detected: 0	Expected: 3
+	- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE8	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EE9	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEA	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEB	Contours detected: 0	Expected: 2
+	- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1EEC	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EED	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEE	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EEF	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF0	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni1EF6	Contours detected: 0	Expected: 2 
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
