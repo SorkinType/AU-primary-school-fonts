@@ -10,7 +10,7 @@ QldSchool Bold: 2875
 QldSchool Medium: 3160
 QldSchool SemiBold: 2982
 QldSchool: 3409 [code: usWinAscent-mismatch]
-</div></details><br></div></details><details><summary><b>[15] QldSchool-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] QldSchool-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
@@ -22,12 +22,6 @@ QldSchool: 3409 [code: usWinAscent-mismatch]
 
 
 * 🔥 **FAIL** Current Font Bakery version is 0.8.11, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇
-
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -82,6 +76,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- i.cv05
 
+	- idotless_cedillabelowcomb
+
 	- m.cv04
 
 	- m.cv05
@@ -93,6 +89,14 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	- u.cv04
 
 	- u.cv05
+
+	- uni0131031B
+
+	- uni01310324
+
+	- uni01310325
+
+	- uni01310326
 
 	- x.cv04 
 
@@ -498,7 +502,7 @@ greaterequal
 	* arrowright (U+2192): L<<1309.0,797.0>--<437.0,798.0>> 
 
 	* arrowright (U+2192): L<<448.0,1036.0>--<1343.0,1035.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] QldSchool-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] QldSchool-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
@@ -510,12 +514,6 @@ greaterequal
 
 
 * 🔥 **FAIL** Current Font Bakery version is 0.8.11, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇
-
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -570,6 +568,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- i.cv05
 
+	- idotless_cedillabelowcomb
+
 	- m.cv04
 
 	- m.cv05
@@ -581,6 +581,14 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	- u.cv04
 
 	- u.cv05
+
+	- uni0131031B
+
+	- uni01310324
+
+	- uni01310325
+
+	- uni01310326
 
 	- x.cv04 
 
@@ -867,7 +875,7 @@ greaterequal
 	* uni2206 (U+2206): L<<1019.0,1441.0>--<1018.0,1691.0>> 
 
 	* uni2206 (U+2206): L<<280.0,190.0>--<1115.0,189.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] QldSchool-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] QldSchool-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
@@ -879,12 +887,6 @@ greaterequal
 
 
 * 🔥 **FAIL** Current Font Bakery version is 0.8.11, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇
-
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -939,6 +941,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- i.cv05
 
+	- idotless_cedillabelowcomb
+
 	- m.cv04
 
 	- m.cv05
@@ -950,6 +954,14 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	- u.cv04
 
 	- u.cv05
+
+	- uni0131031B
+
+	- uni01310324
+
+	- uni01310325
+
+	- uni01310326
 
 	- x.cv04 
 
@@ -1182,7 +1194,7 @@ greaterequal
 	* arrowright (U+2192): L<<1354.0,802.0>--<430.0,803.0>> 
 
 	* uni2206 (U+2206): L<<348.0,239.0>--<1110.0,238.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] QldSchool-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] QldSchool-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
@@ -1190,12 +1202,6 @@ greaterequal
 
 
 * 🔥 **FAIL** Current Font Bakery version is 0.8.11, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇
-
-The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1250,6 +1256,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- i.cv05
 
+	- idotless_cedillabelowcomb
+
 	- m.cv04
 
 	- m.cv05
@@ -1261,6 +1269,14 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	- u.cv04
 
 	- u.cv05
+
+	- uni0131031B
+
+	- uni01310324
+
+	- uni01310325
+
+	- uni01310326
 
 	- x.cv04 
 
@@ -1506,8 +1522,8 @@ greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 16 | 39 | 462 | 25 | 378 | 0 |
-| 0% | 2% | 4% | 50% | 3% | 41% | 0% |
+| 0 | 12 | 39 | 462 | 25 | 382 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
