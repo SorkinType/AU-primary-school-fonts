@@ -258,16 +258,23 @@
 <details><summary>⚠️ <strong>fonts/ttf/QldSchool-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Each font in a family must have the same set of vertical metrics values.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/vertical_metrics&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>usWinAscent is not the same across the family:
+QldSchool Bold: 2875
+QldSchool Medium: 3160
+QldSchool SemiBold: 2982
+QldSchool: 3409 [code: usWinAscent-mismatch]</p>
+</span></li></ul></div></details>
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
 
 <details><summary>🔥 <strong>fonts/ttf/QldSchool-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 3409, but got 2875 instead [code: ascent]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 3409, but got 2875 instead [code: ascent]</p>
+<details><summary>🔥 <strong>fonts/ttf/QldSchool-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 3409, but got 3160 instead [code: ascent]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 3409, but got 2875 instead [code: ascent]</p>
-</span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 3409, but got 2875 instead [code: ascent]</p>
+<details><summary>🔥 <strong>fonts/ttf/QldSchool-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 3409, but got 2982 instead [code: ascent]</p>
 </span></li></ul></div></details>
 <h3>Do we have the latest version of FontBakery installed?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontbakery_version&gt;</div>
@@ -1061,17 +1068,17 @@
 <h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]</p>
+<details><summary>🔥 <strong>fonts/ttf/QldSchool-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]</p>
+<details><summary>🔥 <strong>fonts/ttf/QldSchool-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]</p>
+<details><summary>🔥 <strong>fonts/ttf/QldSchool-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/QldSchool-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦̇ i̦̊ i̦̋ [code: soft-dotted]</p>
+<details><summary>🔥 <strong>fonts/ttf/QldSchool-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i᷆ i᷇</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ [code: soft-dotted]</p>
 </span></li></ul></div></details>
 <h3>Check math signs have the same width.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
