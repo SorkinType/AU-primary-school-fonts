@@ -2,15 +2,10 @@
 
 Fontbakery version: 0.8.11
 
-<details><summary><b>[13] QldSchool-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+<details><summary><b>[12] QldSchool-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2875, but got 2576 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1245, but got 903 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -21,10 +16,6 @@ Fontbakery version: 0.8.11
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
 The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -435,15 +426,22 @@ greaterequal
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* ordfeminine (U+00AA): B<<905.5,1239.5>-<865.0,1279.0>-<882.0,1351.0>>/L<<882.0,1351.0>--<864.0,1276.0>> = 0.21086679589269736 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] QldSchool-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* arrowleft (U+2190): L<<1547.0,754.0>--<652.0,755.0>>
+
+	* arrowleft (U+2190): L<<686.0,993.0>--<1558.0,992.0>>
+
+	* arrowright (U+2192): L<<1143.0,797.0>--<271.0,798.0>> 
+
+	* arrowright (U+2192): L<<282.0,1036.0>--<1177.0,1035.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] QldSchool-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2875, but got 2576 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1245, but got 903 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -454,10 +452,6 @@ greaterequal
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
 The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -568,15 +562,42 @@ lessequal
 Width = 1231:
 greaterequal
  [code: width-outliers]
-</div></details><br></div></details><details><summary><b>[13] QldSchool-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* A (U+0041): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Aacute (U+00C1): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Abreve (U+0102): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Acircumflex (U+00C2): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Adieresis (U+00C4): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Agrave (U+00C0): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Amacron (U+0100): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Aogonek (U+0104): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Aring (U+00C5): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* Atilde (U+00C3): L<<1019.0,1441.0>--<1018.0,1691.0>>
+
+	* arrowleft (U+2190): L<<1536.0,768.0>--<514.0,769.0>>
+
+	* arrowleft (U+2190): L<<544.0,948.0>--<1556.0,947.0>>
+
+	* arrowright (U+2192): L<<1255.0,809.0>--<242.0,810.0>> 
+
+	* uni01CD (U+01CD): L<<1019.0,1441.0>--<1018.0,1691.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] QldSchool-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2875, but got 2576 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1245, but got 903 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -587,10 +608,6 @@ greaterequal
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
 The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1036,15 +1053,20 @@ greaterequal
 	* oslash (U+00F8): B<<651.0,444.0>-<698.0,517.0>-<729.0,588.0>>/L<<729.0,588.0>--<670.0,486.0>> = 6.459404721682291 
 
 	* oslash (U+00F8): L<<670.0,486.0>--<651.0,444.0>>/B<<651.0,444.0>-<698.0,517.0>-<729.0,588.0>> = 8.43378738757168 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] QldSchool-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* arrowleft (U+2190): L<<1543.0,759.0>--<600.0,760.0>>
+
+	* arrowleft (U+2190): L<<633.0,976.0>--<1557.0,975.0>> 
+
+	* arrowright (U+2192): L<<1185.0,802.0>--<260.0,803.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[10] QldSchool-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "QldSchool" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2875, but got 2576 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1245, but got 903 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -1055,10 +1077,6 @@ greaterequal
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
 The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1367,14 +1385,34 @@ greaterequal
 	* uni2116 (U+2116): X=530.0,Y=1959.0 (should be at cap-height 1958?) 
 
 	* uni2116 (U+2116): X=1545.0,Y=1959.0 (should be at cap-height 1958?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* W (U+0057): L<<516.0,440.0>--<515.0,224.0>>
+
+	* Wacute (U+1E82): L<<516.0,440.0>--<515.0,224.0>>
+
+	* Wcircumflex (U+0174): L<<516.0,440.0>--<515.0,224.0>>
+
+	* Wdieresis (U+1E84): L<<516.0,440.0>--<515.0,224.0>>
+
+	* Wgrave (U+1E80): L<<516.0,440.0>--<515.0,224.0>>
+
+	* arrowleft (U+2190): L<<419.0,909.0>--<1555.0,908.0>>
+
+	* arrowright (U+2192): L<<1353.0,820.0>--<217.0,821.0>> 
+
+	* uni1E9E (U+1E9E): L<<815.0,-1.0>--<623.0,0.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 20 | 27 | 474 | 25 | 374 | 0 |
-| 0% | 2% | 3% | 52% | 3% | 41% | 0% |
+| 0 | 12 | 31 | 470 | 25 | 382 | 0 |
+| 0% | 1% | 3% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
