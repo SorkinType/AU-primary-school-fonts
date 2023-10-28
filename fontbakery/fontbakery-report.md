@@ -371,6 +371,16 @@ greaterequal
 
 	* ycircumflex (U+0177): X=110.0,Y=-902.0 (should be at descender -903?)
 
+	* uni0181 (U+0181): X=331.0,Y=1957.0 (should be at cap-height 1958?)
+
+	* uni018A (U+018A): X=351.0,Y=1957.0 (should be at cap-height 1958?)
+
+	* uni0198 (U+0198): X=1574.0,Y=1959.0 (should be at cap-height 1958?)
+
+	* uni01B3 (U+01B3): X=468.0,Y=1957.0 (should be at cap-height 1958?)
+
+	* uni01B4 (U+01B4): X=110.0,Y=-902.0 (should be at descender -903?)
+
 	* uni01B7 (U+01B7): X=439.0,Y=-2.0 (should be at baseline 0?)
 
 	* uni01C7 (U+01C7): X=1772.0,Y=1.0 (should be at baseline 0?)
@@ -487,9 +497,13 @@ greaterequal
 
 	* arrowleft (U+2190): L<<856.0,993.0>--<1728.0,992.0>>
 
-	* arrowright (U+2192): L<<1309.0,797.0>--<437.0,798.0>> 
+	* arrowright (U+2192): L<<1309.0,797.0>--<437.0,798.0>>
 
-	* arrowright (U+2192): L<<448.0,1036.0>--<1343.0,1035.0>> [code: found-semi-vertical]
+	* arrowright (U+2192): L<<448.0,1036.0>--<1343.0,1035.0>>
+
+	* uni0181 (U+0181): L<<331.0,1957.0>--<594.0,1958.0>> 
+
+	* uni018A (U+018A): L<<351.0,1957.0>--<751.0,1958.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[11] QldSchool-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
@@ -817,6 +831,12 @@ greaterequal
 	* arrowleft (U+2190): L<<724.0,948.0>--<1737.0,947.0>>
 
 	* arrowright (U+2192): L<<1430.0,809.0>--<417.0,810.0>>
+
+	* uni0181 (U+0181): L<<326.0,1959.0>--<557.0,1958.0>>
+
+	* uni0181 (U+0181): L<<430.0,1761.0>--<314.0,1762.0>>
+
+	* uni018A (U+018A): L<<361.0,1959.0>--<689.0,1958.0>>
 
 	* uni01CD (U+01CD): L<<1019.0,1441.0>--<1018.0,1691.0>>
 
@@ -1486,6 +1506,8 @@ greaterequal
 	* arrowleft (U+2190): L<<608.0,909.0>--<1744.0,908.0>>
 
 	* arrowright (U+2192): L<<1536.0,820.0>--<400.0,821.0>>
+
+	* uni018A (U+018A): L<<370.0,1960.0>--<635.0,1958.0>>
 
 	* uni1E86 (U+1E86): L<<516.0,440.0>--<515.0,224.0>>
 
