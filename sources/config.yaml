@@ -1,4 +1,5 @@
 recipeProvider: fontprimer
+includeSourceFixes: false
 sources:
 - QLDSchoolHand.glyphs
 shortFamilyName: QLD
