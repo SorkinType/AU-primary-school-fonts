@@ -1,7 +1,7 @@
 recipeProvider: fontprimer
 includeSourceFixes: false
 sources:
-- QLDSchoolHand.glyphs
+- AuQLDHand.glyphs
 familyName: Edu QLD Hand
 shortFamilyName: Edu QLD
 variants:
