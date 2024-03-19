@@ -2,7 +2,8 @@ recipeProvider: fontprimer
 includeSourceFixes: false
 sources:
 - QLDSchoolHand.glyphs
-shortFamilyName: QLD
+familyName: Edu QLD Hand
+shortFamilyName: Edu QLD
 variants:
   - name: Precursive
     alias: Pre
@@ -31,5 +32,5 @@ variants:
       - operation: featureFreeze
         args: -f ss06
 doGuidelines: true
-buildStatic: true
+buildStatic: false
 buildColorVariable: true
